@@ -20,3 +20,11 @@ Workshop 2 journées sur Azure Container Apps
 -   [Lab 9](/Lab_9/README.md) : Pipeline _revisions_
 -   [Lab 10](/Lab_10/README.md) : Environnement privé
 -   Synthèse et tour de table
+
+
+
+## Informations utiles
+
+[Mindmap Azure Container App](https://stanmindmaps01.z6.web.core.windows.net/azure_container_apps.html)
+
+[Vidéo de la mindmap](https://youtu.be/MlnnciWNWh0)
