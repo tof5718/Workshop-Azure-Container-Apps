@@ -97,6 +97,9 @@ az containerapp env list --resource-group $RESOURCE_GROUP -o jsonc
 
 az containerapp env list --resource-group $RESOURCE_GROUP -o jsonc| grep provisioningState
 ```
+
+Ne pas continuer tant que vous n'avez pas : "provisioningState": "Succeeded"
+
 Création d'un "private DNS":<br>
 Récupération du default domaine de "Container Apps environment"
 ```
