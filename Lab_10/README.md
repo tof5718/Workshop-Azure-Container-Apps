@@ -93,7 +93,9 @@ az containerapp env create \
 ```
 test et visualisation de "Container Apps environment with the VNET and subnet"
 ```
-az containerapp env list --resource-group $RESOURCE_GROUP -o jsonc
+az containerapp env list --resource-group $RESOURCE_GROUP -o jsonc 
+
+az containerapp env list --resource-group $RESOURCE_GROUP -o jsonc| grep provisioningState
 ```
 Création d'un "private DNS":<br>
 Récupération du default domaine de "Container Apps environment"
