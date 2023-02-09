@@ -228,7 +228,7 @@ az vm create \
 Récupérer la "publicIpAddress" <br>
 Connectez vous à la VM de test (mdp:Password123!):<br>
 ```
-ssh azureuser@<PULICIP>
+ssh azureuser@<PUBLICIP>
 ```
 Dans la VM de test, refaire un curl de l'URL de l'Azure Container App. Ex:<br>
 curl https://nginx-container-app.purplerock-adf3f498.westeurope.azurecontainerapps.io
