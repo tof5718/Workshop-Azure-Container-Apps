@@ -121,7 +121,7 @@ az containerapp logs show \
 
 Pour afficher un stream en direct, utilisez l’argument `--follow` . Sélectionnez Ctrl-C pour arrêter le stream en direct.
 
-Afficher les 30 dernières lignes et le stream en direct :
+Afficher les 15 dernières lignes et le stream en direct :
 ```bash
 az containerapp logs show \
   --name $CONTAINERAPP_NAME \
